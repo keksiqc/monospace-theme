@@ -17,3 +17,9 @@ This is the Monospace Theme from Google's [IDX](https://idx.dev/). Please note t
 > Font used is [Cartograph](https://connary.com/cartograph.html)
 
 ### Dark
+
+![Dark](https://github.com/keksiqc/IDX-Theme/raw/main/assets/preview-dark.webp)
+
+### Light
+
+![Light](https://github.com/keksiqc/IDX-Theme/raw/main/assets/preview-light.webp)
