@@ -9,7 +9,7 @@
   },
   "publisher": "keksiqc",
   "license": "MIT",
-  "repository": "https://github.com/keksiqc/idx-theme",
+  "repository": "https://github.com/keksiqc/idx-monospace-theme",
   "engines": {
     "vscode": "^1.83.0"
   },
