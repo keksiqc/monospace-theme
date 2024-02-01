@@ -1,0 +1,56 @@
+{
+  "name": "idx-theme",
+  "displayName": "IDX Theme",
+  "description": "",
+  "version": "1.0.0",
+  "author": {
+    "name": "Keksi",
+    "email": "contact@keksi.me"
+  },
+  "publisher": "keksiqc",
+  "license": "MIT",
+  "repository": "https://github.com/keksiqc/idx-theme",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "idx",
+    "theme",
+    "dark",
+    "light",
+    "google",
+    "purple",
+    "monospace",
+    "idx-theme"
+  ],
+  "icon": "assets/icon.png",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "idx-icons",
+        "label": "IDX Icons",
+        "path": "./icons/idx-icon-theme.json"
+      }
+    ],
+    "themes": [
+      {
+        "id": "idx-dark",
+        "label": "IDX Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/idx-dark.json"
+      },
+      {
+        "id": "idx-light",
+        "label": "IDX Light",
+        "uiTheme": "vs",
+        "path": "./themes/idx-light.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3"
+  }
+}
