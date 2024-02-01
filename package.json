@@ -1,7 +1,7 @@
 {
-  "name": "idx-theme",
-  "displayName": "IDX Theme",
-  "description": "",
+  "name": "idx-monospace-theme",
+  "displayName": "IDX Monospace Theme",
+  "description": "The Monospace Theme from Google's IDX.",
   "version": "1.0.0",
   "author": {
     "name": "Keksi",
