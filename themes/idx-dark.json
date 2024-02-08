@@ -586,6 +586,40 @@
 				"foreground": "#77d5a3ff",
 				"fontStyle": "underline"
 			}
+		},
+		{},
+		{
+			"scope": "fenced_code.block.language",
+			"settings": {
+				"foreground": "#92a9ffff"
+			}
+		},
+		{
+			"scope": "markup.inline.raw.string.markdown",
+			"settings": {
+				"foreground": "#77d5a3ff"
+			}
+		},
+		{
+			"scope": ["markup.bold", "punctuation.definition.bold"],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ffd395ff"
+			}
+		},
+		{
+			"scope": ["markup.italic", "punctuation.definition.italic"],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#85cdf1ff"
+			}
+		},
+		{
+			"scope": ["markup.strikethrough", "punctuation.definition.strikethrough"],
+			"settings": {
+				"fontStyle": "strikethrough",
+				"foreground": "#ffc6d0ff"
+			}
 		}
 	]
 }
