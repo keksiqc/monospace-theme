@@ -267,6 +267,12 @@
 		"lua": {
 			"iconPath": "lua.svg"
 		},
+		"luau": {
+			"iconPath": "luau.svg"
+		},
+		"luau-def": {
+			"iconPath": "luau-def.svg"
+		},
 		"clojure": {
 			"iconPath": "clojure.svg"
 		},
@@ -350,6 +356,9 @@
 		},
 		"test-js": {
 			"iconPath": "test-js.svg"
+		},
+		"test-lua": {
+			"iconPath": "test-lua.svg"
 		},
 		"angular_light": {
 			"iconPath": "angular_light.svg"
@@ -1401,6 +1410,18 @@
 		"folder_src": {
 			"iconPath": "folder_src.svg"
 		},
+		"folder_client_light": {
+			"iconPath": "folder_client_light.svg"
+		},
+		"folder_client": {
+			"iconPath": "folder_client.svg"
+		},
+		"folder_server_light": {
+			"iconPath": "folder_server_light.svg"
+		},
+		"folder_server": {
+			"iconPath": "folder_server.svg"
+		},
 		"folder_dist_light": {
 			"iconPath": "folder_dist_light.svg"
 		},
@@ -1412,6 +1433,18 @@
 		},
 		"folder_css": {
 			"iconPath": "folder_css.svg"
+		},
+		"folder_react_light": {
+			"iconPath": "folder_react_light.svg"
+		},
+		"folder_react": {
+			"iconPath": "folder_react.svg"
+		},
+		"folder_hooks_light": {
+			"iconPath": "folder_hooks_light.svg"
+		},
+		"folder_hooks": {
+			"iconPath": "folder_hooks.svg"
 		},
 		"folder_pages_light": {
 			"iconPath": "folder_pages_light.svg"
@@ -1867,6 +1900,7 @@
 			".git-for-windows-updater": "git",
 			"git-history": "git",
 			".luacheckrc": "lua",
+			".luaurc": "luau",
 			".Rhistory": "r",
 			".pubignore": "dart",
 			"pubspec.yaml": "dart",
@@ -2925,6 +2959,8 @@
 			"otne": "otne",
 			"patch": "git",
 			"lua": "lua",
+			"luau": "luau",
+			"d.luau": "luau-def",
 			"clj": "clojure",
 			"cljs": "clojure",
 			"cljc": "clojure",
@@ -3000,6 +3036,10 @@
 			"test.mjs": "test-js",
 			"js.snap": "test-js",
 			"cy.js": "test-js",
+			"spec.lua": "test-lua",
+			"test.lua": "test-lua",
+			"spec.luau": "test-lua",
+			"test.luau": "test-lua",
 			"pp": "puppet",
 			"ex": "elixir",
 			"exs": "elixir",
@@ -3398,6 +3438,7 @@
 			"git-rebase": "git",
 			"ignore": "git",
 			"lua": "lua",
+			"luau": "luau",
 			"clojure": "clojure",
 			"groovy": "groovy",
 			"r": "r",
@@ -3503,6 +3544,10 @@
 			"source": "folder_src_light",
 			"sources": "folder_src_light",
 			"code": "folder_src_light",
+			"client": "folder_client_light",
+			"clients": "folder_client_light",
+			"server": "folder_server_light",
+			"servers": "folder_server_light",
 			"dist": "folder_dist_light",
 			"out": "folder_dist_light",
 			"build": "folder_dist_light",
@@ -3517,6 +3562,11 @@
 			"_sass": "folder_css_light",
 			"scss": "folder_css_light",
 			"_scss": "folder_css_light",
+			"react": "folder_react_light",
+			"context": "folder_react_light",
+			"contexts": "folder_react_light",
+			"hook": "folder_hooks_light",
+			"hooks": "folder_hooks_light",
 			"pages": "folder_pages_light",
 			"blog": "folder_blog_light",
 			"_images": "folder_images_light",
@@ -3558,6 +3608,10 @@
 			"jsons": "folder_json_light",
 			"public": "folder_public_light",
 			"node_modules": "folder_node_light",
+			"modules": "folder_node_light",
+			"packages": "folder_node_light",
+			"vendor": "folder_node_light",
+			"shared": "folder_node_light",
 			"util": "folder_util_light",
 			"utils": "folder_util_light",
 			"helpers": "folder_util_light",
@@ -3816,6 +3870,7 @@
 		".git-for-windows-updater": "git",
 		"git-history": "git",
 		".luacheckrc": "lua",
+		".luaurc": "luau",
 		".Rhistory": "r",
 		".pubignore": "dart",
 		"pubspec.yaml": "dart",
@@ -4944,6 +4999,8 @@
 		"otne": "otne",
 		"patch": "git",
 		"lua": "lua",
+		"luau": "luau",
+		"d.luau": "luau-def",
 		"clj": "clojure",
 		"cljs": "clojure",
 		"cljc": "clojure",
@@ -5020,6 +5077,10 @@
 		"test.mjs": "test-js",
 		"js.snap": "test-js",
 		"cy.js": "test-js",
+		"spec.lua": "test-lua",
+		"test.lua": "test-lua",
+		"spec.luau": "test-lua",
+		"test.luau": "test-lua",
 		"module.ts": "angular",
 		"module.js": "angular",
 		"ng-template": "angular",
@@ -5446,6 +5507,7 @@
 		"git-rebase": "git",
 		"ignore": "git",
 		"lua": "lua",
+		"luau": "luau",
 		"clojure": "clojure",
 		"groovy": "groovy",
 		"r": "r",
@@ -5554,6 +5616,10 @@
 		"source": "folder_src",
 		"sources": "folder_src",
 		"code": "folder_src",
+		"client": "folder_client",
+		"clients": "folder_client",
+		"server": "folder_server",
+		"servers": "folder_server",
 		"dist": "folder_dist",
 		"out": "folder_dist",
 		"build": "folder_dist",
@@ -5568,6 +5634,11 @@
 		"_sass": "folder_css",
 		"scss": "folder_css",
 		"_scss": "folder_css",
+		"react": "folder_react",
+		"context": "folder_react",
+		"contexts": "folder_react",
+		"hook": "folder_hooks",
+		"hooks": "folder_hooks",
 		"pages": "folder_pages",
 		"blog": "folder_blog",
 		"_images": "folder_images",
@@ -5609,6 +5680,10 @@
 		"jsons": "folder_json",
 		"public": "folder_public",
 		"node_modules": "folder_node",
+		"modules": "folder_node",
+		"packages": "folder_node",
+		"vendor": "folder_node",
+		"shared": "folder_node",
 		"util": "folder_util",
 		"utils": "folder_util",
 		"helpers": "folder_util",
