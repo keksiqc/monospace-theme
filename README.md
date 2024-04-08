@@ -1,14 +1,17 @@
 <p align="center">
-    <img src="https://github.com/keksiqc/IDX-Theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">IDX Monospace Theme for VSCode</h2>
+    <img src="https://github.com/keksiqc/monospace-theme/raw/main/assets/icon.png" width="80" />
+    <h2 align="center">Monospace Theme for VSCode</h2>
 </p>
 
-The Monospace Theme from Google's [IDX](https://idx.dev/). Please note that this is not an official Theme from Google. I just recreated it for VSCode.
+<p align="center">
+    A minimalistic Visual Studio Code theme with subtle purple accents.
+    The theme is a modified version of the theme used in [IDX](https://idx.dev).
+</p>
 
 ## Usage
 
 1. Open VSCode
-2. Search for `IDX Monospace Theme` in Extensions
+2. Search for `Monospace Theme` in Extensions
 3. Install the theme and choose your variant in `Preferences > Color Theme`
 4. Optionally enable the included icon theme in `Preferences > File Icon Theme`
 
@@ -18,8 +21,8 @@ The Monospace Theme from Google's [IDX](https://idx.dev/). Please note that this
 
 ### Dark
 
-![Dark](https://github.com/keksiqc/IDX-Theme/raw/main/assets/preview-dark.webp)
+![Dark](https://github.com/keksiqc/monospace-theme/raw/main/assets/preview-dark.webp)
 
 ### Light
 
-![Light](https://github.com/keksiqc/IDX-Theme/raw/main/assets/preview-light.webp)
+![Light](https://github.com/keksiqc/monospace-theme/raw/main/assets/preview-light.webp)

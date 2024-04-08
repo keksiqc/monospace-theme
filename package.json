@@ -1,15 +1,15 @@
 {
-  "name": "idx-monospace-theme",
-  "displayName": "IDX Monospace Theme",
-  "description": "The Monospace Theme from Google's IDX.",
-  "version": "1.2.1",
+  "name": "monospace-theme",
+  "displayName": "Monospace Theme",
+  "description": "A minimalistic Visual Studio Code theme with subtle purple accents..",
+  "version": "1.3.0",
   "author": {
     "name": "Keksi",
     "email": "contact@keksi.me"
   },
   "publisher": "keksiqc",
   "license": "MIT",
-  "repository": "https://github.com/keksiqc/idx-monospace-theme",
+  "repository": "https://github.com/keksiqc/monospace-theme",
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -24,29 +24,28 @@
     "google",
     "purple",
     "monospace",
+    "monospace-theme",
     "idx-theme"
   ],
   "icon": "assets/icon.png",
   "contributes": {
     "iconThemes": [
       {
-        "id": "idx-icons",
-        "label": "IDX Icons",
-        "path": "./icons/idx-icon-theme.json"
+        "id": "monospace-icons",
+        "label": "Monospace Icons",
+        "path": "./icons/monospace-icon-theme.json"
       }
     ],
     "themes": [
       {
-        "id": "idx-dark",
-        "label": "IDX Dark",
+        "label": "Monospace Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/idx-dark.json"
+        "path": "./themes/monospace-dark.json"
       },
       {
-        "id": "idx-light",
-        "label": "IDX Light",
+        "label": "Monospace Light",
         "uiTheme": "vs",
-        "path": "./themes/idx-light.json"
+        "path": "./themes/monospace-light.json"
       }
     ]
   },
