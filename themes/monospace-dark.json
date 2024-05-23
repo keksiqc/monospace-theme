@@ -186,6 +186,7 @@
 		"panelSection.border": "#333e4fff",
 		"menu.foreground": "#d9dfe7ff",
 		"menu.background": "#10151dff",
+		"menu.border": "#3d495aff",
 		"menu.selectionForeground": "#d9dfe7ff",
 		"menu.selectionBackground": "#1f2939ff",
 		"menu.separatorBackground": "#333e4fff",
