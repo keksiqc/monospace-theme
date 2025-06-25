@@ -50,6 +50,11 @@
     ]
   },
   "devDependencies": {
-    "@biomejs/biome": "1.5.3"
+    "@biomejs/biome": "2.0.5"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@biomejs/biome"
+    ]
   }
 }
