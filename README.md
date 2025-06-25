@@ -7,6 +7,8 @@
     A minimalistic Visual Studio Code theme with subtle purple accents. 
     <br />
     The theme is a modified version of the theme used in <a href="https://idx.dev">IDX</a>.
+    <br />
+    <a href="https://marketplace.visualstudio.com/items?itemName=keksiqc.idx-monospace-theme">VSCode Marketplace</a> - <a href="https://open-vsx.org/extension/keksiqc/idx-monospace-theme">Open VSX</a>
 </p>
 
 ## Usage
