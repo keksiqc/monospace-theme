@@ -46,6 +46,16 @@
 				"label": "Monospace Light",
 				"uiTheme": "vs",
 				"path": "./themes/monospace-light.json"
+			},
+			{
+				"label": "Space Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/space-dark.json"
+			},
+			{
+				"label": "Space Light",
+				"uiTheme": "vs",
+				"path": "./themes/space-light.json"
 			}
 		]
 	},
