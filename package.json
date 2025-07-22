@@ -61,5 +61,8 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.1.2"
+  },
+  "scripts": {
+    "check": "biome check --write ."
   }
 }
