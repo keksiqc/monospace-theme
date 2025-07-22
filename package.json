@@ -1,70 +1,65 @@
 {
-	"name": "idx-monospace-theme",
-	"displayName": "Monospace Theme",
-	"description": "A minimalistic Visual Studio Code theme with subtle purple accents..",
-	"version": "1.4.0",
-	"author": {
-		"name": "Keksi",
-		"email": "hello@keksi.dev"
-	},
-	"publisher": "keksiqc",
-	"license": "MIT",
-	"repository": "https://github.com/keksiqc/monospace-theme",
-	"engines": {
-		"vscode": "^1.83.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"idx",
-		"theme",
-		"dark",
-		"light",
-		"google",
-		"purple",
-		"monospace",
-		"monospace-theme",
-		"idx-theme"
-	],
-	"icon": "assets/icon.png",
-	"contributes": {
-		"iconThemes": [
-			{
-				"id": "monospace-icons",
-				"label": "Monospace Icons",
-				"path": "./icons/monospace-icon-theme.json"
-			}
-		],
-		"themes": [
-			{
-				"label": "Monospace Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/monospace-dark.json"
-			},
-			{
-				"label": "Monospace Light",
-				"uiTheme": "vs",
-				"path": "./themes/monospace-light.json"
-			},
-			{
-				"label": "Space Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/space-dark.json"
-			},
-			{
-				"label": "Space Light",
-				"uiTheme": "vs",
-				"path": "./themes/space-light.json"
-			}
-		]
-	},
-	"devDependencies": {
-		"@biomejs/biome": "2.0.5"
-	},
-	"pnpm": {
-		"onlyBuiltDependencies": [
-			"@biomejs/biome"
-		]
-	}
+  "name": "idx-monospace-theme",
+  "displayName": "Monospace Theme",
+  "description": "A minimalistic Visual Studio Code theme with subtle purple accents..",
+  "version": "1.4.0",
+  "author": {
+    "name": "Keksi",
+    "email": "hello@keksi.dev"
+  },
+  "publisher": "keksiqc",
+  "license": "MIT",
+  "repository": "https://github.com/keksiqc/monospace-theme",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "idx",
+    "theme",
+    "dark",
+    "light",
+    "google",
+    "purple",
+    "monospace",
+    "monospace-theme",
+    "idx-theme"
+  ],
+  "icon": "assets/icon.png",
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "monospace-icons",
+        "label": "Monospace Icons",
+        "path": "./icons/monospace-icon-theme.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Monospace Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monospace-dark.json"
+      },
+      {
+        "label": "Monospace Light",
+        "uiTheme": "vs",
+        "path": "./themes/monospace-light.json"
+      },
+      {
+        "label": "Space Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/space-dark.json"
+      },
+      {
+        "label": "Space Light",
+        "uiTheme": "vs",
+        "path": "./themes/space-light.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.1.2"
+  }
 }
